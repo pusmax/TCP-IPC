@@ -3,7 +3,7 @@
 const cluster = require('cluster');
 
 if (cluster.isMaster) {
-  require('./master')();
+  require('./master');
 } else {
   require('./worker');
 }
