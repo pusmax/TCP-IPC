@@ -13,7 +13,6 @@ const delay = (task, randorn) => setTimeout(() => {
       console.log(`Result to client ${clientId}: ${result}`);
       socket.end();
     });
-
   });
 
 }, randorn);
